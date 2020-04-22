@@ -1,14 +1,470 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "banners": {
+    "success": true,
+    "message": "Success",
+    "data": [
+      {
+        "id": "56s56",
+        "title": "Try us Free for 30 Days",
+        "message": "get exclusive offer for 30 days only for premium members",
+        "imageUrl": "https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "96F72",
+        "title": "Get 50% Bonus now",
+        "message": "Get 50% off from registration fee for new users",
+        "imageUrl": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80"
+      },
+      {
+        "id": "88S86",
+        "title": "Free personal trainer",
+        "message": "Get free personal  trainer for a month for new members only",
+        "imageUrl": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+      }
+    ]
+  },
+  "gyms": {
+    "success": true,
+    "message": "Success",
+    "data": [
+      {
+        "id": "56s56",
+        "name": "Gym Ila",
+        "location": "Waldemar Thranes gate 86, 0175 Oslo, Norway",
+        "image": "https://images.squarespace-cdn.com/content/v1/5be430ea50a54f1fb04fa2f7/1564049027488-7T9CI8SEPQ8RAU5247C1/ke17ZwdGBToddI8pDm48kJESCBTbNjBVSnYWQBjXl2t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZlbJOrEmku6abKwp8zHQxnL19ffYWD6mi7tI5nLmp-M2OvzC_WyG1BY7Fy8dlH1Uw/IMG_0885.jpg?format=1000w",
+        "facilities": [
+          "1200 sqm fitness center",
+          "Great wardrobes",
+          "Fresh free-range area",
+          "Free Parking"
+        ],
+        "trainers": [
+          {
+            "id": "1d4512",
+            "name": "Storm Salamonser",
+            "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1d45s5",
+            "name": "Ailin Berge",
+            "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          }
+        ],
+        "gallery": [
+          {
+            "id": "1255",
+            "image": "https://images.unsplash.com/photo-1580086319619-3ed498161c77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1225",
+            "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1245",
+            "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1455",
+            "image": "https://images.unsplash.com/photo-1570829460005-c840387bb1ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          }
+        ],
+        "openingHours": [
+          {
+            "day": "Sunday",
+            "time": "07:00 AM - 12.00 PM"
+          },
+          {
+            "day": "Monday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Tuesday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Wednesday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Thursday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Friday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Saturday",
+            "time": "07:00 AM - 10.00 PM"
+          }
+        ]
+      },
+      {
+        "id": "96F72",
+        "name": "Haralds Gym",
+        "location": "Hausmanns gate 6, 0186 Oslo, Norway",
+        "image": "https://s3-media4.fl.yelpcdn.com/bphoto/ZmmzNSqnZl6aXb1SCflfgQ/o.jpg",
+        "facilities": [
+          "1200 sqm fitness center",
+          "Great wardrobes",
+          "Fresh free-range area",
+          "Free Parking"
+        ],
+        "trainers": [
+          {
+            "id": "1d4512",
+            "name": "Storm Salamonser",
+            "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1d45s5",
+            "name": "Ailin Berge",
+            "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          }
+        ],
+        "gallery": [
+          {
+            "id": "1255",
+            "image": "https://images.unsplash.com/photo-1580086319619-3ed498161c77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1485",
+            "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1245",
+            "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1455",
+            "image": "https://images.unsplash.com/photo-1570829460005-c840387bb1ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          }
+        ],
+        "openingHours": [
+          {
+            "day": "Sunday",
+            "time": "Closed"
+          },
+          {
+            "day": "Monday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Tuesday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Wednesday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Thursday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Friday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Saturday",
+            "time": "07:00 AM - 12.00 PM"
+          }
+        ]
+      },
+      {
+        "id": "88S86",
+        "name": "SATS Bislett",
+        "location": "Bislettgata 6, 0167 Oslo, Norway",
+        "image": "https://res.cloudinary.com/hfn/image/upload/c_fill,h_550,q_auto,w_1200/v1/webimages/prod/sats_no_globalassets/kampanjer/q1-2020/valentines/meditation-for-broken-hearts.jpg",
+        "facilities": [
+          "1200 sqm fitness center",
+          "Great wardrobes",
+          "Fresh free-range area",
+          "Free Parking"
+        ],
+        "trainers": [
+          {
+            "id": "1d4512",
+            "name": "Storm Salamonser",
+            "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1d45s5",
+            "name": "Ailin Berge",
+            "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          }
+        ],
+        "gallery": [
+          {
+            "id": "1255",
+            "image": "https://images.unsplash.com/photo-1580086319619-3ed498161c77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1875",
+            "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1245",
+            "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1455",
+            "image": "https://images.unsplash.com/photo-1570829460005-c840387bb1ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          }
+        ],
+        "openingHours": [
+          {
+            "day": "Sunday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Monday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Tuesday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Wednesday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Thursday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Friday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Saturday",
+            "time": "05:00 AM - 12.00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  "nearbygyms": {
+    "success": true,
+    "message": "Success",
+    "data": [
+      {
+        "id": "56s56",
+        "name": "Gym Ila",
+        "location": "Waldemar Thranes gate 86, 0175 Oslo, Norway",
+        "image": "https://images.squarespace-cdn.com/content/v1/5be430ea50a54f1fb04fa2f7/1564049027488-7T9CI8SEPQ8RAU5247C1/ke17ZwdGBToddI8pDm48kJESCBTbNjBVSnYWQBjXl2t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZlbJOrEmku6abKwp8zHQxnL19ffYWD6mi7tI5nLmp-M2OvzC_WyG1BY7Fy8dlH1Uw/IMG_0885.jpg?format=1000w",
+        "facilities": [
+          "1200 sqm fitness center",
+          "Great wardrobes",
+          "Fresh free-range area",
+          "Free Parking"
+        ],
+        "trainers": [
+          {
+            "id": "1d4512",
+            "name": "Storm Salamonser",
+            "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1d45s5",
+            "name": "Ailin Berge",
+            "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          }
+        ],
+        "gallery": [
+          {
+            "id": "1255",
+            "image": "https://images.unsplash.com/photo-1580086319619-3ed498161c77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1225",
+            "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1245",
+            "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1455",
+            "image": "https://images.unsplash.com/photo-1570829460005-c840387bb1ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          }
+        ],
+        "openingHours": [
+          {
+            "day": "Sunday",
+            "time": "07:00 AM - 12.00 PM"
+          },
+          {
+            "day": "Monday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Tuesday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Wednesday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Thursday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Friday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Saturday",
+            "time": "07:00 AM - 10.00 PM"
+          }
+        ]
+      },
+      {
+        "id": "96F72",
+        "name": "Haralds Gym",
+        "location": "Hausmanns gate 6, 0186 Oslo, Norway",
+        "image": "https://s3-media4.fl.yelpcdn.com/bphoto/ZmmzNSqnZl6aXb1SCflfgQ/o.jpg",
+        "facilities": [
+          "1200 sqm fitness center",
+          "Great wardrobes",
+          "Fresh free-range area",
+          "Free Parking"
+        ],
+        "trainers": [
+          {
+            "id": "1d4512",
+            "name": "Storm Salamonser",
+            "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1d45s5",
+            "name": "Ailin Berge",
+            "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          }
+        ],
+        "gallery": [
+          {
+            "id": "1255",
+            "image": "https://images.unsplash.com/photo-1580086319619-3ed498161c77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1485",
+            "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1245",
+            "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1455",
+            "image": "https://images.unsplash.com/photo-1570829460005-c840387bb1ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          }
+        ],
+        "openingHours": [
+          {
+            "day": "Sunday",
+            "time": "Closed"
+          },
+          {
+            "day": "Monday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Tuesday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Wednesday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Thursday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Friday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Saturday",
+            "time": "07:00 AM - 12.00 PM"
+          }
+        ]
+      },
+      {
+        "id": "88S86",
+        "name": "SATS Bislett",
+        "location": "Bislettgata 6, 0167 Oslo, Norway",
+        "image": "https://res.cloudinary.com/hfn/image/upload/c_fill,h_550,q_auto,w_1200/v1/webimages/prod/sats_no_globalassets/kampanjer/q1-2020/valentines/meditation-for-broken-hearts.jpg",
+        "facilities": [
+          "1200 sqm fitness center",
+          "Great wardrobes",
+          "Fresh free-range area",
+          "Free Parking"
+        ],
+        "trainers": [
+          {
+            "id": "1d4512",
+            "name": "Storm Salamonser",
+            "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1d45s5",
+            "name": "Ailin Berge",
+            "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          }
+        ],
+        "gallery": [
+          {
+            "id": "1255",
+            "image": "https://images.unsplash.com/photo-1580086319619-3ed498161c77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1875",
+            "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1245",
+            "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          },
+          {
+            "id": "1455",
+            "image": "https://images.unsplash.com/photo-1570829460005-c840387bb1ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          }
+        ],
+        "openingHours": [
+          {
+            "day": "Sunday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Monday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Tuesday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Wednesday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Thursday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Friday",
+            "time": "05:00 AM - 11.00 PM"
+          },
+          {
+            "day": "Saturday",
+            "time": "05:00 AM - 12.00 PM"
+          }
+        ]
+      }
+    ]
   }
 }
