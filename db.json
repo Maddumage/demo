@@ -1,14 +1,11 @@
 {
-  "banners": {
-    "success": true,
-    "message": "Success",
-    "data": [
-      {
-        "id": "56s56",
-        "title": "Try us Free for 30 Days",
-        "message": "get exclusive offer for 30 days only for premium members",
-        "imageUrl": "https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
-      }
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
 }
